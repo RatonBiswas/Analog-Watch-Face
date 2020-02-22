@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#myCanvas{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.inner_face::after {
+    content: "Raton Biswas";
+    position: absolute;
+    width: 100%;
+    font: bold 0.8em Arial;
+    color: gray;
+    text-align: center;
+    top: 85%;
+    right:1.9%;
+    }
